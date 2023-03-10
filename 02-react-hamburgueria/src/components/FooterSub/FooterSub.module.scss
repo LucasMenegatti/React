@@ -1,0 +1,21 @@
+.footerSub {
+    p {
+        text-align: center;
+    }
+    ul {
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        li {
+            margin: .5rem 0;
+            img {
+                width: 100%;
+                max-width: 80px;
+            }
+        }
+    }
+}

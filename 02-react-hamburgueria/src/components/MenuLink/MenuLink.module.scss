@@ -1,0 +1,16 @@
+@import "../../styles/variables";
+
+.link {
+    color: $cor-do-texto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.linkDestacado {
+    color: $cor-destaque
+}

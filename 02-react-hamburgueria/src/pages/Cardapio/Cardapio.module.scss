@@ -1,0 +1,24 @@
+@import 'styles/_variables.scss';
+
+.cardapio__titulo {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 1.3rem;
+}
+
+.cardapio__cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width:900px) {
+    .cardapio-titulo {
+        font-size: 1.8rem;
+    }
+
+    .cardapio__cards {
+        margin: auto;
+        width: 80%;
+    }
+}

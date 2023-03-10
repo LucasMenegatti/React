@@ -1,0 +1,22 @@
+[
+    {
+      "imagem": "imagens/burguer-01.jpg",
+      "titulo": "JAVASCRIPT",
+      "descricao": "Pão de Brioche, Alface, Maionese da Casa, Frango Empanado e Queijo Emmental."
+    },
+    {
+      "imagem": "imagens/burguer-02.jpg",
+      "titulo": "PYTHON",
+      "descricao": "Pão de Brioche, Muito Bacon, Queijo Prato, Maionese da Casa e Dois Hambúrgueres."
+    },
+    {
+      "imagem": "imagens/burguer-03.jpg",
+      "titulo": "C++",
+      "descricao": "Pão de Brioche, Molho de Tomate, Hambúrguer coberto com os queijos Muçarela, Provolone, Catupiry e Gorgonzola."
+    },
+    {
+      "imagem": "imagens/burguer-04.jpg",
+      "titulo": "ASSEMBLY",
+      "descricao": "Pão de Brioche, Maionese de Bacon, Hambúrguer, Queijo Muçarela, Cebola Roxa, Alface e Tomate."
+    }
+]

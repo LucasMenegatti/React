@@ -1,0 +1,75 @@
+@import 'styles/_variables.scss';
+
+.contato {
+    width: 70%;
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    line-height: 1.5em;
+    padding: 1rem;
+    gap: 1rem;
+    &__div {
+        width: 40%;
+        min-width: 320px;
+        min-height: 400px;
+        form {
+            input {
+                width: 80%;
+                padding: .8rem;
+                margin: .2rem 0;
+                resize: none;
+                background-color: $fundo-escuro;
+                border: none;
+                border-radius: 10px;
+                color: $cor-do-texto;
+            }
+            textarea {
+                width: 80%;
+                padding: .8rem;
+                margin: .2rem 0;
+                resize: none;
+                background-color: $fundo-escuro;
+                border: none;
+                border-radius: 10px;
+                color: $cor-do-texto;
+            }
+        }
+        ul {
+            list-style: none;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.botaoEnviar {
+    width: 30%;
+    background-color: $cor-destaque;
+    color: $cor-do-texto;
+    padding: .4rem;
+    margin-top: .2rem;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover {
+        background-color: $cor-destaque-over;
+    }
+}
+
+.errosFormulario {
+    color: $cor-destaque;
+    font-size: .8rem;
+}
+
+.erroOculto {
+    display: none;
+}
